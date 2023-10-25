@@ -42,7 +42,7 @@ public class BaseClass {
 		UiAutomator2Options options=new UiAutomator2Options();
 //		options.setDeviceName(deviceName);
 		options.setDeviceName("PatrickGooglePixel4");
-		options.setApp("C:\\Users\\COLLABERA\\Downloads\\AppiumProject\\Appium\\src\\main\\resources\\appUsed\\ApiDemos-debug.apk");
+		options.setApp("C:\\Users\\COLLABERA\\git\\gitappium\\Appium\\src\\main\\resources\\appUsed\\ApiDemos-debug.apk");
 		driver=new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
 
 		formPage=new FormPage(driver);
